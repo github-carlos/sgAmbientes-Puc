@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Embarcados</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <center><br><br>
+  <h1>Cadastro de embarcado</h1>
+  <ion-item>
+    <ion-label position="stacked">Descrição do hardware</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <br>
+  <ion-item>
+    <ion-label position="stacked">Firmware</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <br>
+  <ion-item>
+    <ion-label position="stacked">Status</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <br>
+  <ion-item>
+    <ion-label position="stacked">Modo de comunicação</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <br>
+  <ion-item>
+    <ion-label position="stacked">IP do embarcado</ion-label>
+    <ion-input type="number"></ion-input>
+  </ion-item>
+  <br>
+  <ion-item>
+    <ion-label position="stacked">MAC do embarcado</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <br>
+  <ion-item>
+    <ion-label position="stacked">IP do gateway</ion-label>
+    <ion-input type="number"></ion-input>
+  </ion-item>
+  <br>
+  <ion-item>
+    <ion-label position="stacked">Porta do gateway</ion-label>
+    <ion-input type="number"></ion-input>
+  </ion-item>
+  <br>
+  <ion-item>
+    <ion-label position="stacked">Lista de tópicos do servidor MQTT</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <br>
+  <ion-button (click)="cadastrar()" shape="round" color="primary">Cadastrar</ion-button>
+  <ion-button (click)="navegar()" shape="round" color="medium">Voltar ao perfil</ion-button>
+  </center>
+</ion-content>

@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Salas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <center><br><br>
+  <h1>Cadastro de ambiente</h1>
+  <ion-item>
+    <ion-label position="stacked">Unidade</ion-label>
+    <ion-input type="number"></ion-input>
+  </ion-item>
+  <br>
+  <ion-item>
+    <ion-label position="stacked">Bloco</ion-label>
+    <ion-input type="number"></ion-input>
+  </ion-item>
+  <br>
+  <ion-item>
+    <ion-label position="stacked">Nome</ion-label>
+    <ion-input type="name"></ion-input>
+  </ion-item>
+  <br>
+  <ion-item>
+    <ion-label position="stacked">Capacidade</ion-label>
+    <ion-input type="number"></ion-input>
+  </ion-item>
+  <br>
+  <ion-item>
+    <ion-label position="stacked">Quantidade de computadores</ion-label>
+    <ion-input type="number"></ion-input>
+  </ion-item>
+  <br>
+  <ion-item>
+    <ion-label position="stacked">IP da câmera</ion-label>
+    <ion-input type="number"></ion-input>
+  </ion-item>
+  <br>
+  <ion-item>
+    <ion-label>Tipo de ambiente</ion-label>
+    <ion-select>
+      <ion-select-option value="brown">Comportamental</ion-select-option>
+      <ion-select-option value="blonde">Laboratório</ion-select-option>
+      <ion-select-option value="black">Auditório</ion-select-option>
+      <ion-select-option value="red">Anfteatro</ion-select-option>
+      <ion-select-option value="red">Administrativo</ion-select-option>
+    </ion-select>
+  </ion-item><br>
+  <ion-button (click)="cadastrar()" shape="round" color="primary">Cadastrar</ion-button>
+  <ion-button (click)="navegar()" shape="round" color="medium">Voltar ao perfil</ion-button>
+  </center>
+</ion-content>

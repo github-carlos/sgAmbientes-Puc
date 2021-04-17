@@ -1,0 +1,21 @@
+<ion-content>
+    <center><br><br>
+      <img src="./assets/img/user.png" width="80" height="80">
+    <ion-item>
+        <ion-label position="floating" type="e-mail">E-mail</ion-label>
+        <ion-input type="email"></ion-input>
+    </ion-item>
+    <br>
+    <ion-item>
+      <ion-label position="floating" type="password">Senha</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item><br>
+    <ion-button (click)="logar()" expand="full" shape="round" color="primary">Login</ion-button>
+  <ion-button (click)="cadastro()" expand="full" shape="round" color="medium">Fazer cadastro</ion-button>
+  <button (click)="recuperar()" class="ion-activatable ripple-parent">
+    Recuperar senha
+    <ion-ripple-effect></ion-ripple-effect>
+  </button>
+    </center>
+  </ion-content>
+  
